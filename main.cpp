@@ -18,12 +18,12 @@ char *charSubstr(char *input, long start, long end)
 
 char *charCycle(char *input, long count)
 {
-	long length = std::strlen(input);
+	long length = strlen(input);
 
 	// Error checking.
 	if (count > length)
 	{
-		count = length;		
+		count = length;
 	}
 
 	char *catstr = new char[length];
