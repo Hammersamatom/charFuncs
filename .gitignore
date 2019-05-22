@@ -1,3 +1,10 @@
+# Name of the program
 test
+
+# Compiled stuff
 *.o
+*.out
+*.gcda
+
+# Unneeded stuff
 .vscode
